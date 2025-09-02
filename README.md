@@ -22,11 +22,3 @@ AWS (S3, EC2, IAM) – Cloud infrastructure & storage
 Python – Data extraction & transformation logic
 OpenWeatherMap API – Data source
 
-📂 Project Structure
-├── dags/
-│   ├── weather_dag.py       # Main Airflow DAG
-├── scripts/
-│   ├── transform.py         # Transformation logic
-├── config/
-│   ├── airflow.cfg          # Airflow configuration
-├── README.md                # Project documentation
