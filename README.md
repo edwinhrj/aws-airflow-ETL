@@ -11,14 +11,15 @@ Tried to experiemtn and build an automated ETL pipeline that extracts live weath
 The entire end-to-end workflow is orchestrated on an AWS EC2 instance.
 
 🚀 Project Overview
-Extract: Collect current weather data from OpenWeatherMap API.
-Transform: Process and clean the raw JSON response into a structured format.
-Load: Store the processed data into an Amazon S3 bucket for further use (analytics, machine learning, reporting, etc.).
-Orchestrate: Use Apache Airflow to schedule, monitor, and manage the pipeline.
+- **Extract:** Collect current weather data from OpenWeatherMap API.  
+- **Transform:** Process and clean the raw JSON response into a structured format.  
+- **Load:** Store the processed data into an Amazon S3 bucket for further use (analytics, machine learning, reporting, etc.).  
+- **Orchestrate:** Use Apache Airflow to sc
+
 
 🛠️ Tech Stack
-Apache Airflow – Workflow orchestration & scheduling
-AWS (S3, EC2, IAM) – Cloud infrastructure & storage
-Python – Data extraction & transformation logic
-OpenWeatherMap API – Data source
+- **Apache Airflow** – Workflow orchestration & scheduling  
+- **AWS (S3, EC2, IAM)** – Cloud infrastructure & storage  
+- **Python** – Data extraction & transformation logic  
+- **OpenWeatherMap API** – Data source
 
