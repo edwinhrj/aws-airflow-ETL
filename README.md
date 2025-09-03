@@ -6,7 +6,8 @@ Note:
 This github contains all the essential files required to run the end-to-end ETL pipeline. However, the true python files are hosted on an AWS EC2 instance now, which requires SSH access to connect and run the Airflow services remotely.
 
 🌦️ Weather Data ETL Pipeline with Apache Airflow on AWS
-Tried to experiemtn and build an automated ETL pipeline that extracts live weather data from the OpenWeatherMap API, transforms it, and loads it into an Amazon S3 bucket using Apache Airflow.
+
+- Experimented and built an automated ETL pipeline that extracts live weather data from the OpenWeatherMap API, transforms it, and loads it into an Amazon S3 bucket using Apache Airflow.
 
 The entire end-to-end workflow is orchestrated on an AWS EC2 instance.
 
